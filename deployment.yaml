@@ -36,6 +36,6 @@ spec:
     spec:
       containers:
       - name: app-demo
-        image: adefemi171/appdemo:0.1.10
+        image: adefemi171/appdemo:$TAG
         ports:
         - containerPort: 3000
